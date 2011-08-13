@@ -14,14 +14,9 @@
             
 			<div class="yui3-u-5-24">
  
- 				<p style="font-weight:bold;float:left;margin-left:45px;margin-top:190px;">
-					<ul>
-						<li><a href="#">Left Item One</a></li>
-						<li><a href="#">Left Item Two</a></li>
-						<li><a href="#">Left Item Three</a></li>
-						<li><a href="#">Left Item Four</a></li>
-					</ul>    		
-	    		</p>
+ 				<p style="font-weight:bold;float:right;margin-right:45px;">
+ 					<g:render template="/leftSidebar" />				
+ 				</p>
  				
         	</div>
         	
@@ -34,13 +29,8 @@
     	
     		<div class="yui3-u-5-24">
     		
-	    		<p style="font-weight:bold;float:left;margin-left:45px;margin-top:190px;">
-					<ul>
-						<li><a href="#">Right Item One</a></li>
-						<li><a href="#">Right Item Two</a></li>
-						<li><a href="#">Right Item Three</a></li>
-						<li><a href="#">Right Item Four</a></li>
-					</ul>    		
+	    		<p style="font-weight:bold;float:left;margin-left:45px;">
+	    			<g:render template="/rightSidebar" />	    		
 	    		</p>
     		</div>
     	</div> <!--  "body" -->
