@@ -9,6 +9,8 @@ package org.trijug
  */
 class MessageController {
 
+	def jmsListenerService;
+	
 	def index = {
 		// println "MessageController.index";
 	}
@@ -24,5 +26,11 @@ class MessageController {
 		sendJMSMessage("trijugQueue", message );
 		
 		redirect(controller:"message", action:"index");
+	}
+	
+	def list = {
+		
+		List<String> messages = jmsListenerService.getMessages();
+		[messages: messages];	
 	}
 }
