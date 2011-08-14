@@ -6,7 +6,8 @@
         <link rel="stylesheet" type="text/css" href="css/cssbase/base-min.css" />
         <link rel="stylesheet" type="text/css" href="css/fonts-min.css" />
         <link rel="stylesheet" type="text/css" href="css/grids-min.css" />
-        
+        <g:javascript library="jquery-1.4" />
+        <g:javascript library="jquery.timers-1.2" />
        	<script type="text/javascript">
         	<g:render template="/javascript/application.js"/>
     	</script>

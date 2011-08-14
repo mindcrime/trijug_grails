@@ -6,6 +6,12 @@
     <body>
  		<h2>Feeds for Tri-JUG</h2>
  		<p />
-		<g:render template="/allEntries"></g:render>
+ 		<div id="allEntries">
+			<g:render template="/allEntries"></g:render>
+		</div>
+		<div class="entriesFooter" style="clear:both;">
+			<center><a href="#" id="loadMoreLink">Get More Entries</a></center>
+		</div>		
+		
     </body>
 </html>

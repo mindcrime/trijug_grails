@@ -3,3 +3,4 @@
  				<a href="${entry.url}">${entry.title}</a>
  			</div>
  		</g:each>
+ 		
