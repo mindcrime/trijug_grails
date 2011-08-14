@@ -5,7 +5,12 @@
 		<link rel="stylesheet" type="text/css" href="css/reset-min.css" />
         <link rel="stylesheet" type="text/css" href="css/cssbase/base-min.css" />
         <link rel="stylesheet" type="text/css" href="css/fonts-min.css" />
-        <link rel="stylesheet" type="text/css" href="css/grids-min.css" />        
+        <link rel="stylesheet" type="text/css" href="css/grids-min.css" />
+        
+       	<script type="text/javascript">
+        	<g:render template="/javascript/application.js"/>
+    	</script>
+                
         <g:layoutHead />
     </head>
     <body>
