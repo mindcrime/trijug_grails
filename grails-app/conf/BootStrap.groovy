@@ -1,6 +1,6 @@
 import grails.util.Environment
 
-import org.trijug.RssFeed
+import org.trijug.RssFeed;
 
 class BootStrap {
 
