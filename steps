@@ -1,0 +1,23 @@
+v0.0 - empty project with readme
+v0.1 - unmodified Grails app
+v0.2 - modified index.jsp (but not the layout)
+v0.3 - modified layout main.gsp
+v0.4 - 3 column layout using YUI (no templates)
+v0.5 - adds index2 to demonstrate using templates for left and right sidebar
+v0.6 - changes app.context to root
+v0.7 - adds rssfeed domain and controller, but with messed up scaffolding due to changing main layout
+v0.8 - put main layout back to default
+v0.9 - adds HomeController and associated gsp, renders Entry list
+v0.10 - adds retrieving and parsing RSS feed with Rome from Feeds plugin
+
+(note: if an rssFeed was added earlier using the scaffolded page, bounce the server now to lead into the
+discussion of using BootStrap)
+
+v0.11 - uses the BootStrap to add some Feeds at startup time
+v0.12 - update Entries list using schedule job via Quartz plugin, load for display from the DB
+v0.13 - render list of entries via a template, to setup our AJAX "load more" functionality
+v0.14 - adds support for loading additional Entries using AJAX
+v0.15 - adds support for producing an RSS feed
+v0.16 - adds support for sending JMS messages 
+v0.17 - adds support for receiving JMS messages
+v0.18 - adds full-text search using Lucene
